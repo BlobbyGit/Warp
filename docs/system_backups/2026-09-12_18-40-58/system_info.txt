@@ -1,0 +1,5 @@
+=== SYSTEM INFORMATION SNAPSHOT ===
+Date: Sat 12 Sep 2026 18:40:58 AEST
+macOS Version: 26.6.2
+Mac Model: MacBook Pro
+Shell: /bin/zsh (zsh 5.9 (arm64-apple-darwin25.0))

@@ -1,0 +1,49 @@
+Adguard.app
+Apple Configurator.app
+Bitwarden.app
+BlockBlock Helper.app
+Brave Browser.app
+BrowserMask.app
+Compressor Creator Studio.app
+Final Cut Pro Creator Studio.app
+Firefox.app
+GarageBand.app
+GitHub Desktop.app
+Google Chrome.app
+GPG Keychain.app
+HP.app
+iMovie.app
+Keynote Creator Studio.app
+KnockKnock.app
+Ledger Wallet.app
+Little Snitch Mini.app
+Logic Pro Creator Studio.app
+LuLu.app
+MainStage Creator Studio.app
+MERCUSYS.app
+Microsoft Outlook.app
+Microsoft Teams.app
+Microsoft Word.app
+Motion Creator Studio.app
+News24 Aus.app
+Numbers Creator Studio.app
+Numbers.app
+OverSight.app
+Pages Creator Studio.app
+Pixelmator Pro Creator Studio.app
+Prime Video.app
+ProtonVPN.app
+RansomWhere Helper.app
+ReiKey.app
+Safari Technology Preview.app
+Safari.app
+Super Agent.app
+Swann Security.app
+Tether.app
+Tor Browser.app
+uBlock Origin Lite.app
+Utilities
+Visual Studio Code.app
+Warp.app
+Xcode.app
+Yubico Authenticator.app

@@ -1,0 +1,970 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.3">
+  <style type="text/css">
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #6d6d6d; -webkit-text-stroke: #6d6d6d; min-height: 15.0px}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.8px Monaco; color: #2b84d2; -webkit-text-stroke: #2b84d2; background-color: #f6f6f6}
+    p.p8 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #212f3f; -webkit-text-stroke: #212f3f}
+    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626; min-height: 15.0px}
+    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.8px Monaco; color: #2b84d2; -webkit-text-stroke: #2b84d2; background-color: #f6f6f6; min-height: 15.0px}
+    p.p11 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626}
+    p.p14 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #212f3f; -webkit-text-stroke: #212f3f}
+    p.p16 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626; background-color: #fff1c2}
+    p.p17 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #6c797a; -webkit-text-stroke: #6c797a}
+    p.p18 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px 'Helvetica Neue'; color: #343434; -webkit-text-stroke: #6d6d6d}
+    p.p19 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px 'Helvetica Neue'; color: #343434; -webkit-text-stroke: #6d6d6d; min-height: 21.0px}
+    p.p20 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px Monaco; color: #2b84d2; -webkit-text-stroke: #6d6d6d}
+    p.p21 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px Monaco; color: #2b84d2; -webkit-text-stroke: #6d6d6d; min-height: 15.0px}
+    p.p24 {margin: 0.0px 0.0px 12.0px 0.0px; text-align: center; font: 12.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626}
+    li.li3 {margin: 0.0px 0.0px 5.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #2b84d2; -webkit-text-stroke: #2b84d2}
+    li.li4 {margin: 0.0px 0.0px 5.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #2b84d2; -webkit-text-stroke: #2b84d2; background-color: #f7f7f7}
+    li.li12 {margin: 0.0px 0.0px 5.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626}
+    li.li13 {margin: 0.0px 0.0px 5.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #212f3f; -webkit-text-stroke: #262626}
+    li.li15 {margin: 0.0px 0.0px 5.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #212f3f; -webkit-text-stroke: #212f3f}
+    li.li22 {margin: 0.0px 0.0px 5.0px 0.0px; font: 10.8px Monaco; color: #2b84d2; -webkit-text-stroke: #262626}
+    li.li23 {margin: 0.0px 0.0px 5.0px 0.0px; font: 10.8px Monaco; color: #2b84d2; -webkit-text-stroke: #2b84d2}
+    span.s1 {font-kerning: none}
+    span.s2 {font-kerning: none; background-color: #f7f7f7}
+    span.s3 {background-color: #f7f7f7; -webkit-text-stroke: 0px #000000}
+    span.s4 {-webkit-text-stroke: 0px #000000}
+    span.s5 {font-kerning: none; color: #212f3f; -webkit-text-stroke: 0px #212f3f}
+    span.s6 {font-kerning: none; -webkit-text-stroke: 0px #212f3f}
+    span.s7 {font-kerning: none; color: #262626}
+    span.s8 {font-kerning: none; background-color: #fff1c2}
+    span.s9 {color: #262626; -webkit-text-stroke: 0px #000000}
+    span.s10 {font-kerning: none; color: #262626; -webkit-text-stroke: 0px #262626}
+    span.s11 {font: 12.0px '.Apple Color Emoji UI'; font-kerning: none}
+    span.s12 {font: 10.8px Monaco; color: #2b84d2; background-color: #f1f1f1; -webkit-text-stroke: 0px #000000}
+    span.s13 {font: 10.8px Monaco; font-kerning: none; color: #2b84d2; background-color: #f1f1f1; -webkit-text-stroke: 0px #2b84d2}
+    span.s14 {background-color: #f1f1f1; -webkit-text-stroke: 0px #000000}
+    span.s15 {font-kerning: none; background-color: #f1f1f1; -webkit-text-stroke: 0px #2b84d2}
+    span.s16 {font: 12.0px 'Helvetica Neue'; font-kerning: none; color: #262626}
+    span.s17 {font-kerning: none; background-color: #f1f1f1}
+    span.s18 {color: #212f3f; -webkit-text-stroke: 0px #000000}
+    span.s19 {font-kerning: none; color: #212f3f; background-color: #ececec; -webkit-text-stroke: 0px #212f3f}
+    span.s20 {font-kerning: none; background-color: #ececec}
+    span.s21 {font: 10.8px Menlo; font-kerning: none; color: #2b84d2; background-color: #f1f1f1; -webkit-text-stroke: 0px #2b84d2}
+    ol.ol1 {list-style-type: decimal}
+    ul.ul1 {list-style-type: disc}
+    ul.ul2 {list-style-type: circle}
+    html {scroll-behavior: smooth}
+    a.toc-link {color: #2b84d2; text-decoration: none; font-kerning: none; background-color: #f7f7f7}
+    a.toc-link:hover {text-decoration: underline}
+  </style>
+</head>
+<body>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Helvetica Neue'; color: #212f3f; -webkit-text-stroke: #212f3f"><span class="s1"><b>Mac Command Reference Guide</b></span></h1>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s2"><b>Table of Contents</b><b></b></span></h2>
+<ul class="ul1">
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#ssh-keys">SSH &amp; Keys</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#battery-monitoring">Battery Monitoring</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#system-checks">System Checks</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#network-dns">Network &amp; DNS</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#security-authentication">Security &amp; Authentication</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#knockknock-persistence">KnockKnock &amp; Persistence Review</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#security-status-checks">Security Status Checks</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#brew-security-tools">Brew Security Tools</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#backup-recovery">Backup &amp; Recovery</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#smb-netbios">SMB &amp; NetBIOS</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#clear-cookies-caches">Clear Cookies &amp; Caches</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#user-process-monitoring">User &amp; Process Monitoring</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#firewall-lulu">Firewall (Lulu)</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#time-machine">Time Machine</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#system-maintenance">System Maintenance</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#safari-browser">Safari &amp; Browser</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#adguard-optimization">AdGuard &amp; DNS Optimization</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#airdrop-handoff">AirDrop &amp; Handoff</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#audio-switching">Audio Device Switching</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#file-management">File Management</a></li>
+<li class="li3"><span class="s3"></span><a class="toc-link" href="#cryptocurrency">Cryptocurrency</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#icloud-photos">iCloud Photos Sync</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#highpoint-cleanup">Remove Unused HighPoint RAID Kexts</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#codesign-scripts">Ad-hoc Sign Custom Scripts</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#launchagent-audit">Custom LaunchAgents Audit</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#reinstate-scripts">Reinstate All Scripts</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#additional-scripts">Additional Scripts</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#performance-optimization">Performance &amp; System Optimization</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#development-debugging">Development &amp; Debugging</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#keyboard-input">Keyboard &amp; Input Tweaks</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#maintenance-helpers">Maintenance Helpers</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#privacy-tracking">Privacy &amp; Tracking</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#useful-aliases">Useful Aliases</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#quick-tips">Quick Tips &amp; Tricks</a></li>
+  <li class="li3"><span class="s3"></span><a class="toc-link" href="#notes">Notes</a></li>
+</ul>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="ssh-keys" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>SSH &amp; Keys</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>View SSH Public Key</b></span></h3>
+<p class="p7"><span class="s1">cat ~/.ssh/id_ed25519.pub</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="battery-monitoring" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>Battery Monitoring</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Start Battery Monitor (Manual)</b></span></h3>
+<p class="p7"><span class="s1">./battery_monitor.sh &amp;</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Stop Battery Monitor</b></span></h3>
+<p class="p7"><span class="s1">killall battery_monitor.sh</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Manage LaunchAgent (Auto-start)</b></span></h3>
+<p class="p8"><span class="s1"><b>Stop:</b><b></b></span></p>
+<p class="p7"><span class="s1">launchctl unload ~/Library/LaunchAgents/com.user.batterymonitor.plist</span></p>
+<p class="p8"><span class="s1"><b>Start:</b><b></b></span></p>
+<p class="p7"><span class="s1">launchctl load ~/Library/LaunchAgents/com.user.batterymonitor.plist</span></p>
+<p class="p8"><span class="s1"><b>Check logs:</b><b></b></span></p>
+<p class="p7"><span class="s1">cat /tmp/battery_monitor.log</span></p>
+<p class="p7"><span class="s1">cat /tmp/battery_monitor.error.log</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="system-checks" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>System Checks</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Main System Check Scripts</b></span></h3>
+<p class="p7"><span class="s1">~/system_check_backup.sh</span></p>
+<p class="p7"><span class="s1">~/.local/bin/system_check_backup.sh</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>ClamAV (Antivirus)</b></span></h3>
+<p class="p7"><span class="s1">~/clamav-manager.sh status<span class="Apple-converted-space">      </span># Check status</span></p>
+<p class="p7"><span class="s1">~/clamav-manager.sh scan-now<span class="Apple-converted-space">    </span># Run scan</span></p>
+<p class="p7"><span class="s1">~/clamav-manager.sh logs<span class="Apple-converted-space">        </span># View results</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="network-dns" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>Network &amp; DNS</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Set DNS to Quad9</b></span></h3>
+<p class="p7"><span class="s1">networksetup -setdnsservers Wi-Fi 2620:fe::fe 2620:fe::9 9.9.9.9 149.112.112.112</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Network Interfaces</b></span></h3>
+<p class="p7"><span class="s1">ifconfig | grep -A5 "en0"</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Connected Devices</b></span></h3>
+<p class="p7"><span class="s1">arp -a</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Active Network Connections</b></span></h3>
+<p class="p7"><span class="s1">netstat -an | grep ESTABLISHED</span></p>
+<p class="p7"><span class="s1">lsof -i</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Monitor Google Connections</b></span></h3>
+<p class="p7"><span class="s1">sudo lsof -i -n -P | grep google</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Check Current DNS Servers</b></span></h3>
+<p class="p7"><span class="s1">networksetup -getdnsservers Wi-Fi</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Network Device Scan (nmap)</b></span></h3>
+<p class="p7"><span class="s1">nmap -sn --host-timeout 3s 192.168.68.0/24               # Scan your local subnet</span></p>
+<p class="p7"><span class="s1">nmap -sn --host-timeout 3s $(ipconfig getifaddr en0 | awk -F. '{print $1"."$2"."$3".0/24"}')   # Auto-detect subnet</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="security-authentication" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>Security &amp; Authentication</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>PAM Setup (YubiKey FIDO)</b></span></h3>
+<p class="p7"><span class="s1">pamu2fcfg -o pam://$(hostname) -i pam://$(hostname) &gt; ~/.config/Yubico/u2f_keys</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Test PIV Authentication</b></span></h3>
+<p class="p7"><span class="s1">sudo -k &amp;&amp; sudo whoami</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Disable Screen Sharing</b></span></h3>
+<p class="p7"><span class="s1">sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -deactivate -stop</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Check Remote Login Status</b></span></h3>
+<p class="p7"><span class="s1">sudo systemsetup -getremotelogin</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>macOS Firewall Stealth Mode (ignore ping/probes)</b></span></h3>
+<p class="p7"><span class="s1">/usr/libexec/ApplicationFirewall/socketfilterfw --getstealthmode</span></p>
+<p class="p7"><span class="s1">sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setstealthmode on</span></p>
+<p class="p17"><span class="s1"><i>Distinct from LuLu's own stealth setting (see LuLu Firewall Status below). Both confirmed ON as of Aug 2026.</i><i></i></span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Require Password Immediately After Sleep/Screensaver</b></span></h3>
+<p class="p7"><span class="s1">defaults write com.apple.screensaver askForPassword -int 1</span></p>
+<p class="p7"><span class="s1">defaults write com.apple.screensaver askForPasswordDelay -int 0</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Disable Unwanted System Services (e.g. stray Apache/Web Sharing, FTP proxy)</b></span></h3>
+<p class="p7"><span class="s1">pgrep -fl httpd; lsof -nP -iTCP:80 -sTCP:LISTEN    # Check if Apache is unexpectedly running</span></p>
+<p class="p7"><span class="s1">sudo apachectl stop &amp;&amp; sudo launchctl disable system/org.apache.httpd</span></p>
+<p class="p7"><span class="s1">sudo launchctl disable system/com.apple.ftp-proxy</span></p>
+<p class="p17"><span class="s1"><i>Apple's own LaunchDaemons are SIP-protected: `launchctl bootout`/`unload` fails with "Input/output error". Use `launchctl disable system/&lt;label&gt;` instead, then stop the running process.</i><i></i></span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<p class="p9"><span class="s1"></span><br></p>
+<h2 id="backup-recovery" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>Backup &amp; Recovery</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Bitwarden Backup</b></span></h3>
+<p class="p8"><span class="s1"><b>Run Encrypted Backup:</b><b></b></span></p>
+<p class="p7"><span class="s1">/Users/jarrodstebbing/bitwarden_backup.sh</span></p>
+<p class="p8"><span class="s1"><b>View Backup README:</b><b></b></span></p>
+<p class="p7"><span class="s1">cat /Volumes/SD/BitwardenBackups/README.md</span></p>
+<p class="p8"><span class="s1"><b>Test Backup Script:</b><b></b></span></p>
+<p class="p7"><span class="s1">ls -la /Users/jarrodstebbing/bitwarden_backup.sh</span></p>
+<p class="p8"><span class="s1"><b>Restore from Backup:</b><b></b></span></p>
+<p class="p7"><span class="s1">gpg --decrypt /Volumes/SD/BitwardenBackups/bw_backup_YYYY-MM-DD_HH-MM.json.gpg &gt; restored_backup.json</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>GPG Keys Backup</b></span></h3>
+<p class="p8"><span class="s1"><b>Backup All GPG Keys to SD Card:</b><b></b></span></p>
+<p class="p7"><span class="s1">mkdir -p "/Volumes/SD/GPG backup" &amp;&amp; \</span></p>
+<p class="p7"><span class="s1">gpg --export --armor --output "/Volumes/SD/GPG backup/all-public-keys.asc" &amp;&amp; \</span></p>
+<p class="p7"><span class="s1">gpg --export-secret-keys --armor --output "/Volumes/SD/GPG backup/all-private-keys.asc" &amp;&amp; \</span></p>
+<p class="p7"><span class="s1">gpg --export-ownertrust &gt; "/Volumes/SD/GPG backup/ownertrust.txt"</span></p>
+<p class="p8"><span class="s1"><b>Verify Backup:</b><b></b></span></p>
+<p class="p7"><span class="s1">ls -lh "/Volumes/SD/GPG backup/"</span></p>
+<p class="p8"><span class="s1"><b>Restore GPG Keys:</b><b></b></span></p>
+<p class="p7"><span class="s1"># Import public keys</span></p>
+<p class="p7"><span class="s1">gpg --import "/Volumes/SD/GPG backup/all-public-keys.asc"</span></p>
+<p class="p10"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1"># Import private keys</span></p>
+<p class="p7"><span class="s1">gpg --import "/Volumes/SD/GPG backup/all-private-keys.asc"</span></p>
+<p class="p10"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1"># Restore trust database</span></p>
+<p class="p7"><span class="s1">gpg --import-ownertrust "/Volumes/SD/GPG backup/ownertrust.txt"</span></p>
+<p class="p8"><span class="s1"><b>List Backed Up Keys:</b><b></b></span></p>
+<p class="p7"><span class="s1">gpg --list-secret-keys</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Create Bootable macOS USB</b></span></h3>
+<p class="p8"><span class="s1"><b>1. Download macOS installer:</b><b></b></span></p>
+<p class="p7"><span class="s1">softwareupdate --fetch-full-installer --full-installer-version 15.6.1</span></p>
+<p class="p8"><span class="s1"><b>2. Create bootable USB:</b><b></b></span></p>
+<p class="p7"><span class="s1">sudo /Applications/Install\ macOS\ Sequoia.app/Contents/Resources/createinstallmedia --volume "/Volumes/Seqoiua reinstall"</span></p>
+<p class="p11"><span class="s5"><b>3. Boot from USB:</b></span><span class="s1"><br>
+Hold Option/Alt at startup, select USB, then reinstall or restore from Time Machine.</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Reinstall macOS from Bootable Drive</b></span></h3>
+<p class="p8"><span class="s1"><b>Boot into Recovery from USB:</b><b></b></span></p>
+<ol class="ol1">
+  <li class="li12"><span class="s4"></span><span class="s1">Shut down your Mac completely</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">Insert the bootable USB drive</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">Press and hold </span><span class="s5"><b>Option/Alt</b></span><span class="s1"> key while pressing the power button</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">Select the USB installer (usually shows as "Install macOS [Version]")</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">Release the Option/Alt key when the installer loads</span></li>
+</ol>
+<p class="p8"><span class="s1"><b>Choose Installation Type:</b><b></b></span></p>
+<p class="p8"><span class="s1"><b>Option A: Clean Install (Erase Everything)</b><b></b></span></p>
+<p class="p7"><span class="s1"># From Recovery, open Disk Utility:</span></p>
+<p class="p7"><span class="s1"># 1. Erase main disk (usually "Macintosh HD")</span></p>
+<p class="p7"><span class="s1"># 2. Format as APFS</span></p>
+<p class="p7"><span class="s1"># 3. Close Disk Utility and select "Reinstall macOS"</span></p>
+<p class="p7"><span class="s1"># 4. Follow the installation wizard</span></p>
+<p class="p8"><span class="s1"><b>Option B: Reinstall Over Existing System (Keep Files)</b><b></b></span></p>
+<ul class="ul1">
+  <li class="li12"><span class="s4"></span><span class="s1">From the main recovery screen, select "Reinstall macOS"</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">This preserves user files, apps, and settings</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">Useful for fixing system issues without losing data</span></li>
+</ul>
+<p class="p8"><span class="s1"><b>Option C: Restore from Time Machine</b><b></b></span></p>
+<ul class="ul1">
+  <li class="li12"><span class="s4"></span><span class="s1">Connect your Time Machine backup drive</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">Select "Restore from Time Machine Backup"</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">Choose your backup and destination disk</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">Wait for restoration to complete</span></li>
+  <li class="li13"><span class="s4"><b></b></span><span class="s6"><b>This restores EVERYTHING exactly as it was</b></span><span class="s7"> (preferred method for complete replication)</span></li>
+</ul>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Complete System Replication Using Time Machine</b></span></h3>
+<p class="p14"><span class="s8"><b>RECOMMENDED METHOD: Full Time Machine Restore</b><b></b></span></p>
+<p class="p11"><span class="s8">This is the easiest way to replicate your exact setup after installing from bootable drive.</span></p>
+<p class="p8"><span class="s1"><b>During macOS Installation:</b><b></b></span></p>
+<ol class="ol1">
+  <li class="li12"><span class="s4"></span><span class="s1">Boot from "Seqoiua reinstall" USB (hold Option/Alt at startup)</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">In Disk Utility, erase your main drive (Macintosh HD) as APFS</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">Close Disk Utility</span></li>
+  <li class="li15"><span class="s9"></span><span class="s10">Select </span><span class="s1"><b>"Restore from Time Machine Backup"</b><b></b></span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">Connect your Time Machine drive ("Time Machine Backup" volume)</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">Select your most recent backup</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">Choose "Macintosh HD" as destination</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">Wait for complete restoration (may take 1-3 hours depending on data size)</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">Mac will restart with EVERYTHING restored:</span></li>
+  <ul class="ul2">
+    <li class="li12"><span class="s4"></span><span class="s1">All apps (Safari with AdGuard/uBlock, Bitwarden, etc.)</span></li>
+    <li class="li12"><span class="s4"></span><span class="s1">All system settings (locale, WiFi country, DNS)</span></li>
+    <li class="li12"><span class="s4"></span><span class="s1">All scripts (battery_monitor, system_check, bitwarden_backup)</span></li>
+    <li class="li12"><span class="s4"></span><span class="s1">All LaunchAgents</span></li>
+    <li class="li12"><span class="s4"></span><span class="s1">All preferences and configurations</span></li>
+    <li class="li12"><span class="s4"></span><span class="s1">All documents and files</span></li>
+  </ul>
+</ol>
+<p class="p8"><span class="s1"><b>After Time Machine Restore:</b><b></b></span></p>
+<p class="p7"><span class="s1"># Verify everything is restored</span></p>
+<p class="p7"><span class="s1">ls -la ~/*.sh <span class="Apple-converted-space">                          </span># Check scripts</span></p>
+<p class="p7"><span class="s1">ls -la ~/Library/LaunchAgents/<span class="Apple-converted-space">          </span># Check LaunchAgents</span></p>
+<p class="p7"><span class="s1">cat ~/.ssh/id_ed25519.pub <span class="Apple-converted-space">              </span># Verify SSH key</span></p>
+<p class="p7"><span class="s1">brew --version<span class="Apple-converted-space">                          </span># Check Homebrew</span></p>
+<p class="p10"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1"># If needed, reload LaunchAgents</span></p>
+<p class="p7"><span class="s1">launchctl load ~/Library/LaunchAgents/com.user.batterymonitor.plist</span></p>
+<p class="p10"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1"># Verify system settings</span></p>
+<p class="p7"><span class="s1">defaults read NSGlobalDomain AppleLocale<span class="Apple-converted-space">  </span># Should show en_AU</span></p>
+<p class="p7"><span class="s1">systemsetup -gettimezone<span class="Apple-converted-space">                  </span># Should show Australia/Sydney</span></p>
+<p class="p8"><span class="s1"><b>What Gets Restored Automatically:</b><b></b></span></p>
+<ul class="ul1">
+  <li class="li12"><span class="s4"></span><span class="s11">✅</span><span class="s1"> Safari with extensions (AdGuard, uBlock Origin)</span></li>
+  <li class="li12"><span class="s4"></span><span class="s11">✅</span><span class="s1"> All browser bookmarks and settings</span></li>
+  <li class="li12"><span class="s4"></span><span class="s11">✅</span><span class="s1"> Bitwarden app and configuration</span></li>
+  <li class="li12"><span class="s4"></span><span class="s11">✅</span><span class="s1"> Homebrew and all installed packages</span></li>
+  <li class="li12"><span class="s4"></span><span class="s11">✅</span><span class="s1"> All your scripts and their permissions</span></li>
+  <li class="li12"><span class="s4"></span><span class="s11">✅</span><span class="s1"> SSH keys and YubiKey configuration</span></li>
+  <li class="li12"><span class="s4"></span><span class="s11">✅</span><span class="s1"> Lulu firewall rules</span></li>
+  <li class="li12"><span class="s4"></span><span class="s11">✅</span><span class="s1"> Homebridge setup</span></li>
+  <li class="li12"><span class="s4"></span><span class="s11">✅</span><span class="s1"> ClamAV configuration</span></li>
+  <li class="li12"><span class="s4"></span><span class="s11">✅</span><span class="s1"> Network settings (DNS, WiFi)</span></li>
+  <li class="li12"><span class="s4"></span><span class="s11">✅</span><span class="s1"> All system preferences</span></li>
+  <li class="li12"><span class="s4"></span><span class="s11">✅</span><span class="s1"> Application data and caches</span></li>
+</ul>
+<p class="p5"><span class="s1"></span><br></p>
+<p class="p9"><span class="s1"></span><br></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Restore Apps &amp; Settings After Clean Install (Manual Method)</b></span></h3>
+<p class="p16"><span class="s5"><b>Note:</b></span><span class="s1"> Use this only if you did a clean install without Time Machine restore.</span></p>
+<p class="p8"><span class="s1"><b>1. System Settings Restoration</b><b></b></span></p>
+<p class="p7"><span class="s1"># Set locale and region</span></p>
+<p class="p7"><span class="s1">sudo systemsetup -settimezone "Australia/Sydney"</span></p>
+<p class="p7"><span class="s1">defaults write NSGlobalDomain AppleLocale -string "en_AU"</span></p>
+<p class="p10"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1"># Set WiFi country code</span></p>
+<p class="p7"><span class="s1">sudo /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport prefs RequireAdminIBSS=YES RequireAdminNetworkChange=YES RequireAdminPowerToggle=YES</span></p>
+<p class="p10"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1"># Enable timezone auto-adjustment</span></p>
+<p class="p7"><span class="s1">sudo systemsetup -setusingnetworktime on</span></p>
+<p class="p8"><span class="s1"><b>2. Install Homebrew</b><b></b></span></p>
+<p class="p7"><span class="s1">/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</span></p>
+<p class="p8"><span class="s1"><b>3. Restore from Time Machine (Selective)</b><b></b></span></p>
+<p class="p7"><span class="s1"># Enter Time Machine from Finder</span></p>
+<p class="p7"><span class="s1"># Navigate to specific folders:</span></p>
+<p class="p7"><span class="s1"># - ~/Library/Application Support (app data)</span></p>
+<p class="p7"><span class="s1"># - ~/Documents</span></p>
+<p class="p7"><span class="s1"># - ~/.ssh (SSH keys)</span></p>
+<p class="p7"><span class="s1"># - ~/.config (config files)</span></p>
+<p class="p7"><span class="s1"># - ~/.local (local scripts)</span></p>
+<p class="p7"><span class="s1"># Click "Restore" for each needed item</span></p>
+<p class="p8"><span class="s1"><b>4. Manual App Installations</b><b></b></span></p>
+<p class="p7"><span class="s1"># Install command-line tools</span></p>
+<p class="p7"><span class="s1">brew install gpg clamav</span></p>
+<p class="p10"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1"># Install GUI apps</span></p>
+<p class="p7"><span class="s1">brew install --cask bitwarden</span></p>
+<p class="p10"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1"># Install global npm packages</span></p>
+<p class="p7"><span class="s1">sudo npm install -g --unsafe-perm homebridge homebridge-config-ui-x</span></p>
+<p class="p8"><span class="s1"><b>5. Restore Security Keys</b><b></b></span></p>
+<p class="p7"><span class="s1"># YubiKey PAM setup</span></p>
+<p class="p7"><span class="s1">pamu2fcfg -o pam://$(hostname) -i pam://$(hostname) &gt; ~/.config/Yubico/u2f_keys</span></p>
+<p class="p10"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1"># Copy SSH keys from backup</span></p>
+<p class="p7"><span class="s1">cp /path/to/backup/.ssh/id_ed25519* ~/.ssh/</span></p>
+<p class="p7"><span class="s1">chmod 600 ~/.ssh/id_ed25519</span></p>
+<p class="p7"><span class="s1">chmod 644 ~/.ssh/id_ed25519.pub</span></p>
+<p class="p8"><span class="s1"><b>6. Restore Safari Settings</b><b></b></span></p>
+<p class="p7"><span class="s1"># Copy from Time Machine backup or reapply:</span></p>
+<p class="p7"><span class="s1">defaults write com.apple.Safari IncludeDevelopMenu -bool true</span></p>
+<p class="p7"><span class="s1">defaults write com.apple.Safari WebKitDNSPrefetchingEnabled -bool true</span></p>
+<p class="p7"><span class="s1">defaults write com.apple.Safari SendDoNotTrackHTTPHeader -bool true</span></p>
+<p class="p7"><span class="s1">defaults write com.apple.Safari.SandboxBroker ShowDevelopMenu -bool true</span></p>
+<p class="p8"><span class="s1"><b>7. Restore Scripts &amp; LaunchAgents</b><b></b></span></p>
+<p class="p7"><span class="s1"># Copy scripts from backup</span></p>
+<p class="p7"><span class="s1">cp /path/to/backup/battery_monitor.sh ~/</span></p>
+<p class="p7"><span class="s1">cp /path/to/backup/system_check_backup.sh ~/</span></p>
+<p class="p7"><span class="s1">cp /path/to/backup/bitwarden_backup.sh ~/</span></p>
+<p class="p7"><span class="s1">chmod +x ~/*.sh</span></p>
+<p class="p10"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1"># Restore LaunchAgents</span></p>
+<p class="p7"><span class="s1">cp /path/to/backup/Library/LaunchAgents/* ~/Library/LaunchAgents/</span></p>
+<p class="p7"><span class="s1">launchctl load ~/Library/LaunchAgents/com.user.batterymonitor.plist</span></p>
+<p class="p8"><span class="s1"><b>8. Quick Restoration Checklist</b><b></b></span></p>
+<ul class="ul1">
+  <li class="li12"><span class="s4"></span><span class="s1">System preferences (locale, timezone, WiFi country)</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">Homebrew and essential packages</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">SSH keys and permissions</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">YubiKey PAM configuration</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">Bitwarden and restore vault</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">Scripts (battery_monitor, system_check_backup, bitwarden_backup)</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">LaunchAgents for automation</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">Safari settings and privacy configurations</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">DNS settings (Quad9)</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">Lulu firewall rules</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">Homebridge configuration</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">ClamAV setup</span></li>
+</ul>
+<p class="p8"><span class="s1"><b>9. Automated Backup for Future Recovery</b><b></b></span></p>
+<p class="p7"><span class="s1"># Create a restoration script that backs up critical configs</span></p>
+<p class="p7"><span class="s1">mkdir -p ~/SystemBackup</span></p>
+<p class="p7"><span class="s1">cp -r ~/.ssh ~/SystemBackup/</span></p>
+<p class="p7"><span class="s1">cp -r ~/.config ~/SystemBackup/</span></p>
+<p class="p7"><span class="s1">cp -r ~/Library/LaunchAgents ~/SystemBackup/</span></p>
+<p class="p7"><span class="s1">cp ~/*.sh ~/SystemBackup/</span></p>
+<p class="p10"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1"># Store on iCloud or external drive</span></p>
+<p class="p7"><span class="s1">cp -r ~/SystemBackup /Volumes/SD/</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<p class="p9"><span class="s1"></span><br></p>
+<h2 id="smb-netbios" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>SMB &amp; NetBIOS</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Disable NetBIOS (Permanent)</b></span></h3>
+<p class="p7"><span class="s1">./disable_netbios_permanent.sh</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Turn Off NetBIOS (Manual)</b></span></h3>
+<p class="p7"><span class="s1">defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string ""</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Check NetBIOS Status</b></span></h3>
+<p class="p7"><span class="s1">defaults read /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName</span></p>
+<p class="p17"><span class="s1"><i>Empty string means it's disabled</i><i></i></span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Disable SMB Services</b></span></h3>
+<p class="p7"><span class="s1">sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.smbd.plist</span></p>
+<p class="p7"><span class="s1">sudo defaults delete /Library/Preferences/SystemConfiguration/com.apple.smb.server.plist NetBIOSName</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Verify SMB Disabled</b></span></h3>
+<p class="p7"><span class="s1">ps aux | grep -E "smbd|netbiosd" | grep -v grep</span></p>
+<p class="p7"><span class="s1">launchctl list | grep smbd</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Re-enable SMB (if needed)</b></span></h3>
+<p class="p7"><span class="s1">sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.netbiosd.plist</span></p>
+<p class="p7"><span class="s1">sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.smbd.plist</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>NetBIOS Monitor Log</b></span></h3>
+<p class="p7"><span class="s1">cat ~/netbios_monitor.log</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="clear-cookies-caches" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>Clear Cookies &amp; Caches</b></span></h2>
+<p class="p20"><span class="s1"># Clear system caches (safe)</span></p>
+<p class="p20"><span class="s1">sudo rm -rf /Library/Caches/*</span></p>
+<p class="p20"><span class="s1">rm -rf ~/Library/Caches/*</span></p>
+<p class="p21"><span class="s1"></span><br></p>
+<p class="p20"><span class="s1"># Clear Safari cache but keep cookies</span></p>
+<p class="p20"><span class="s1">rm -rf ~/Library/Caches/com.apple.Safari/*</span></p>
+<p class="p20"><span class="s1">rm -rf ~/Library/Safari/LocalStorage/*</span></p>
+<p class="p20"><span class="s1">rm -rf ~/Library/Safari/Databases/*</span></p>
+<p class="p21"><span class="s1"></span><br></p>
+<p class="p20"><span class="s1"># Keep these untouched:</span></p>
+<p class="p20"><span class="s1"># ~/Library/Cookies/ (all cookies preserved)</span></p>
+<p class="p20"><span class="s1"># ~/Library/Safari/Cookies/ (Safari cookies)</span></p>
+<p class="p21"><span class="s1"></span><br></p>
+<p class="p20"><span class="s1"># Clear other browser caches (if applicable)</span></p>
+<p class="p20"><span class="s1">rm -rf ~/Library/Containers/com.apple.Safari/Data/Library/Caches/com.apple.Safari/*</span></p>
+<p class="p20"><span class="s1">rm -rf ~/Library/Containers/com.apple.SafariTechnologyPreview/Data/Library/Caches/com.apple.SafariTechnologyPreview/*</span></p>
+<p class="p21"><span class="s1"></span><br></p>
+<p class="p20"><span class="s1"># Clear app-specific caches</span></p>
+<p class="p20"><span class="s1">rm -rf ~/Library/Containers/com.apple.Safari/Data/Library/Application\ Support/Cache/*</span></p>
+<p class="p20"><span class="s1">rm -rf ~/Library/Containers/com.apple.SafariTechnologyPreview/Data/Library/Application\ Support/Cache/*</span></p>
+<p class="p21"><span class="s1"></span><br></p>
+<p class="p20"><span class="s1"># Keep user agent cookies intact</span></p>
+<p class="p20"><span class="s1"># These are stored in:</span></p>
+<p class="p20"><span class="s1"># ~/Library/Cookies/</span></p>
+<p class="p20"><span class="s1"># ~/Library/Safari/Cookies/</span></p>
+<p class="p20"><span class="s1"># ~/Library/Containers/com.apple.Safari/Data/Library/Cookies/</span></p>
+<p class="p20"><span class="s1"># ~/Library/Containers/com.apple.SafariTechnologyPreview/Data/Library/Cookies/</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="user-process-monitoring" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>User &amp; Process Monitoring</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Current User</b></span></h3>
+<p class="p7"><span class="s1">whoami</span></p>
+<p class="p7"><span class="s1">who</span></p>
+<p class="p7"><span class="s1">w</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>All Logged In Users</b></span></h3>
+<p class="p7"><span class="s1">users</span></p>
+<p class="p7"><span class="s1">last</span></p>
+<p class="p7"><span class="s1">last -10<span class="Apple-converted-space">          </span># Recent logins</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>User Processes</b></span></h3>
+<p class="p7"><span class="s1">ps aux | cut -d' ' -f1 | sort | uniq</span></p>
+<p class="p7"><span class="s1">ps aux | grep -v grep | awk '{print $1}' | sort | uniq -c</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>File Access Monitoring</b></span></h3>
+<p class="p7"><span class="s1">lsof -i <span class="Apple-converted-space">          </span># Network connections</span></p>
+<p class="p7"><span class="s1">lsof +D /Users<span class="Apple-converted-space">    </span># Who's accessing files</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="firewall-lulu" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>Firewall (Lulu)</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Lulu Setup Phases</b></span></h3>
+<p class="p7"><span class="s1">open ~/lulu_rules_checklist.txt</span></p>
+<p class="p8"><span class="s1"><b>Recommended order:</b><b></b></span></p>
+<ol class="ol1">
+  <li class="li12"><span class="s4"></span><span class="s1">Block Apple telemetry (low risk, high privacy)</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">Allow essential system services (iCloud, updates, push notifications)</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">Allow your apps (Safari, Mail, Bitwarden, security tools)</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">Set developer tools to Prompt mode (node, python, ruby)</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">Configure Homebridge properly</span></li>
+  <li class="li12"><span class="s4"></span><span class="s1">Enable Block Mode (after everything works)</span></li>
+</ol>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Common Safe Processes</b></span></h3>
+<ul class="ul1">
+  <li class="li12"><span class="s12"></span><span class="s13">trustd</span><span class="s1"> - certificate validation</span></li>
+  <li class="li12"><span class="s12"></span><span class="s13">nsurlsessiond</span><span class="s1"> - network requests</span></li>
+  <li class="li12"><span class="s12"></span><span class="s13">cloudd</span><span class="s1"> - iCloud sync</span></li>
+  <li class="li12"><span class="s12"></span><span class="s13">mDNSResponder</span><span class="s1"> - network discovery</span></li>
+  <li class="li22"><span class="s14"></span><span class="s15">softwareupdated</span><span class="s16"> - system updates</span></li>
+</ul>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="time-machine" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>Time Machine</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Disable Time Machine</b></span></h3>
+<p class="p7"><span class="s1">sudo tmutil disable</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Enable &amp; Start Backup</b></span></h3>
+<p class="p7"><span class="s1">sudo tmutil startbackup</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Check Time Machine Status</b></span></h3>
+<p class="p7"><span class="s1">tmutil destinationinfo     # Verify destination is configured</span></p>
+<p class="p7"><span class="s1">tmutil latestbackup        # Path to most recent backup</span></p>
+<p class="p7"><span class="s1">tmutil status              # Current backup progress/status</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="system-maintenance" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>System Maintenance</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Clear Caches</b></span></h3>
+<p class="p17"><span class="s1"><i>See "Clear Cookies &amp; Caches" above for the safer, selective version that preserves cookies/logins.</i><i></i></span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Homebrew Maintenance</b></span></h3>
+<p class="p7"><span class="s1">brew upgrade</span></p>
+<p class="p7"><span class="s1">brew cleanup --prune=all</span></p>
+<p class="p7"><span class="s1">brew analytics off       # Disable Homebrew telemetry</span></p>
+<p class="p7"><span class="s1">brew doctor</span></p>
+<p class="p17"><span class="s1"><i>If `brew cleanup` fails with a permission error on a Cellar path, a past `sudo brew install` likely left it root-owned:</i><i></i></span></p>
+<p class="p7"><span class="s1">sudo chown -R $(whoami):admin /opt/homebrew/Cellar/&lt;formula&gt;</span></p>
+<p class="p17"><span class="s1"><i>Exception: ClamAV's bin/ directory is intentionally root-owned by its formula for security - don't chown it. To remove an old version instead:</i><i></i></span></p>
+<p class="p7"><span class="s1">sudo rm -rf /opt/homebrew/Cellar/clamav/&lt;old-version&gt;</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Homebridge NPM Install</b></span></h3>
+<p class="p7"><span class="s1">sudo npm install -g --unsafe-perm homebridge homebridge-config-ui-x</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="safari-browser" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>Safari &amp; Browser</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>RSS Feed URLs</b></span></h3>
+<p class="p11"><span class="s1">Add these extensions to websites:</span></p>
+<ul class="ul1">
+  <li class="li23"><span class="s14"></span><span class="s17">/feed</span></li>
+  <li class="li23"><span class="s14"></span><span class="s17">/rss</span></li>
+  <li class="li23"><span class="s14"></span><span class="s17">/feed.xml</span></li>
+  <li class="li23"><span class="s14"></span><span class="s17">/rss.xml</span></li>
+</ul>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Safari Performance Tweaks</b></span></h3>
+<p class="p7"><span class="s1"># Enable faster page rendering &amp; DNS prefetch</span></p>
+<p class="p7"><span class="s1">defaults write com.apple.SafariTechnologyPreview WebKitDNSPrefetchingEnabled -bool true</span></p>
+<p class="p7"><span class="s1">defaults write com.apple.SafariTechnologyPreview WebKitResourceLoadSchedulingEnabled -bool true</span></p>
+<p class="p10"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1"># Enable GPU-accelerated rendering processes</span></p>
+<p class="p7"><span class="s1">defaults write com.apple.SafariTechnologyPreview "WebKitPreferences.gpuProcessForDOMRenderingEnabled" -bool true</span></p>
+<p class="p7"><span class="s1">defaults write com.apple.SafariTechnologyPreview "WebKitPreferences.gpuProcessForCanvasRenderingEnabled" -bool true</span></p>
+<p class="p7"><span class="s1">defaults write com.apple.SafariTechnologyPreview "WebKitPreferences.gpuProcessForMediaEnabled" -bool true</span></p>
+<p class="p7"><span class="s1">defaults write com.apple.SafariTechnologyPreview "WebKitPreferences.gpuProcessForWebGLEnabled" -bool true</span></p>
+<p class="p10"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1"># Enable HTTP/3 (QUIC)</span></p>
+<p class="p7"><span class="s1">defaults write com.apple.SafariTechnologyPreview "WebKitPreferences.http3Enabled" -bool true</span></p>
+<p class="p7"><span class="s1">defaults write com.apple.SafariTechnologyPreview CFNetworkHTTP3Override -int 3</span></p>
+<p class="p10"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1"># Verify active WebKit feature flags</span></p>
+<p class="p7"><span class="s1">python3 -c 'import subprocess, plistlib; pl = plistlib.loads(subprocess.check_output(["defaults", "export", "com.apple.SafariTechnologyPreview", "-"])); flags = ["gpuProcessForDOMRenderingEnabled", "gpuProcessForCanvasRenderingEnabled", "gpuProcessForMediaEnabled", "gpuProcessForWebGLEnabled", "http3Enabled"]; [print(f"{f:<38} : {pl.get(f\"WebKitPreferences.{f}\")}") for f in flags]'</span></p>
+<p class="p10"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1"># Restart Safari Technology Preview to apply</span></p>
+<p class="p7"><span class="s1">killall "Safari Technology Preview"</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="adguard-optimization" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>AdGuard &amp; DNS Optimization</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Disable Telemetry &amp; Acceptable Ads</b></span></h3>
+<p class="p7"><span class="s1">defaults write com.adguard.mac.adguard SendTelemetry -bool false</span></p>
+<p class="p7"><span class="s1">defaults write com.adguard.mac.adguard UsefulAdsEnabled -bool false</span></p>
+<p class="p17"><span class="s1"><i>Removes background telemetry and blocks self-promotional search/partner ads.</i></span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Check AdGuard Process &amp; System Extension Status</b></span></h3>
+<p class="p7"><span class="s1">pgrep -afil "Adguard|com.adguard"</span></p>
+<p class="p7"><span class="s1">systemextensionsctl list | grep -i adguard</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Benchmark DNS Latency &amp; Memory Cache</b></span></h3>
+<p class="p7"><span class="s1"># Cold query vs warm memory cache query</span></p>
+<p class="p7"><span class="s1">dig cloudflare.com | grep "Query time" &amp;&amp; dig cloudflare.com | grep "Query time"</span></p>
+<p class="p10"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1"># Multi-domain latency check</span></p>
+<p class="p7"><span class="s1">for h in google.com cloudflare.com apple.com github.com; do printf "%-18s " "$h:"; dig "$h" | awk '/Query time/ {print $4, $5}'; done</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Verify Tracker &amp; Ad Interception (DNS Drop)</b></span></h3>
+<p class="p7"><span class="s1">dig pagead2.googlesyndication.com +short     # Should return empty or 0.0.0.0</span></p>
+<p class="p7"><span class="s1">dig telemetry.applovin.com +short              # Should return empty or 0.0.0.0</span></p>
+<p class="p7"><span class="s1">dig adservice.google.com +short                # Should return empty or 0.0.0.0</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<p class="p9"><span class="s1"></span><br></p>
+<h2 id="airdrop-handoff" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>AirDrop &amp; Handoff</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Check Handoff Configuration</b></span></h3>
+<p class="p7"><span class="s1">defaults -currentHost read com.apple.coreservices.useractivityd ActivityAdvertisingAllowed</span></p>
+<p class="p7"><span class="s1">defaults -currentHost read com.apple.coreservices.useractivityd ActivityReceivingAllowed</span></p>
+<p class="p17"><span class="s1"><i>Both should return </i></span><span class="s13">1</span><span class="s1"><i> for enabled</i><i></i></span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Enable Handoff</b></span></h3>
+<p class="p7"><span class="s1">defaults -currentHost write com.apple.coreservices.useractivityd ActivityAdvertisingAllowed -bool YES</span></p>
+<p class="p7"><span class="s1">defaults -currentHost write com.apple.coreservices.useractivityd ActivityReceivingAllowed -bool YES</span></p>
+<p class="p7"><span class="s1">killall useractivityd</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Check Bluetooth Status</b></span></h3>
+<p class="p7"><span class="s1">system_profiler SPBluetoothDataType | grep "State:"</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Enable Bluetooth</b></span></h3>
+<p class="p7"><span class="s1">sudo defaults write /Library/Preferences/com.apple.Bluetooth ControllerPowerState -int 1</span></p>
+<p class="p7"><span class="s1">sudo killall -HUP bluetoothd</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Check AWDL Interface (Handoff)</b></span></h3>
+<p class="p7"><span class="s1">ifconfig awdl0</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Restart Sharing Services</b></span></h3>
+<p class="p7"><span class="s1">launchctl kickstart -k gui/$(id -u)/com.apple.sharingd</span></p>
+<p class="p7"><span class="s1">launchctl kickstart -k gui/$(id -u)/com.apple.useractivityd</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Check Services Running</b></span></h3>
+<p class="p7"><span class="s1">pgrep -x "sharingd"</span></p>
+<p class="p7"><span class="s1">pgrep -x "useractivityd"</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="audio-switching" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>Audio Device Switching</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Install SwitchAudioSource</b></span></h3>
+<p class="p7"><span class="s1">brew install switchaudio-osx</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>List All Audio Devices</b></span></h3>
+<p class="p7"><span class="s1">SwitchAudioSource -a<span class="Apple-converted-space">           </span># All devices (input and output)</span></p>
+<p class="p7"><span class="s1">SwitchAudioSource -a -t output<span class="Apple-converted-space">  </span># Output devices only</span></p>
+<p class="p7"><span class="s1">SwitchAudioSource -a -t input<span class="Apple-converted-space">   </span># Input devices only</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Show Current Audio Device</b></span></h3>
+<p class="p7"><span class="s1">SwitchAudioSource -c<span class="Apple-converted-space">           </span># Current output device</span></p>
+<p class="p7"><span class="s1">SwitchAudioSource -c -t input<span class="Apple-converted-space">   </span># Current input device</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Switch Output Device</b></span></h3>
+<p class="p7"><span class="s1">SwitchAudioSource -s "MacBook Pro Speakers"<span class="Apple-converted-space">  </span># Built-in speakers</span></p>
+<p class="p7"><span class="s1">SwitchAudioSource -s "AirPlay"<span class="Apple-converted-space">                </span># AirPlay (e.g. Bose speakers, HomePod)</span></p>
+<p class="p7"><span class="s1">SwitchAudioSource -s "Jays Bose Stereo"<span class="Apple-converted-space">      </span># Specific device by name</span></p>
+<p class="p17"><span class="s1"><i>Use exact device names from SwitchAudioSource -a output</i><i></i></span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Test Audio Playback</b></span></h3>
+<p class="p7"><span class="s1">afplay /System/Library/Sounds/Glass.aiff<span class="Apple-converted-space">  </span># Play system sound</span></p>
+<p class="p17"><span class="s1"><i>Useful for verifying audio routing after switching devices</i><i></i></span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="reinstate-scripts" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>Reinstate All Scripts</b></span></h2>
+<p class="p16"><span class="s5"><b>Run after clean install or if scripts are missing from expected locations.</b></span></p>
+<p class="p8"><span class="s1"><b>Run the reinstate script (does everything in one go):</b><b></b></span></p>
+<p class="p7"><span class="s1">~/reinstate_scripts.sh</span></p>
+<p class="p17"><span class="s1"><i>Copies all scripts from ~/Scripts From warp/ to ~/ and ~/.local/bin/, sets permissions, reloads LaunchAgents, and verifies.</i><i></i></span></p>
+<p class="p10"><span class="s1"></span><br></p>
+<p class="p8"><span class="s1"><b>Or run individual steps manually:</b><b></b></span></p>
+<p class="p7"><span class="s1"># Copy scripts from backup to expected locations</span></p>
+<p class="p7"><span class="s1">cp ~/"Scripts From warp"/battery_monitor.sh ~/battery_monitor.sh</span></p>
+<p class="p7"><span class="s1">cp ~/"Scripts From warp"/bitwarden_backup.sh ~/bitwarden_backup.sh</span></p>
+<p class="p7"><span class="s1">cp ~/"Scripts From warp"/clamav-manager.sh ~/clamav-manager.sh</span></p>
+<p class="p7"><span class="s1">cp ~/"Scripts From warp"/system_check_backup.sh ~/system_check_backup.sh</span></p>
+<p class="p7"><span class="s1">cp ~/"Scripts From warp"/bitwarden-audit.sh ~/bitwarden-audit.sh</span></p>
+<p class="p7"><span class="s1">cp ~/"Scripts From warp"/breach-monitor.sh ~/breach-monitor.sh</span></p>
+<p class="p10"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1"># Update .local/bin copies</span></p>
+<p class="p7"><span class="s1">mkdir -p ~/.local/bin</span></p>
+<p class="p7"><span class="s1">cp ~/"Scripts From warp"/system_check_backup.sh ~/.local/bin/system_check_backup.sh</span></p>
+<p class="p7"><span class="s1">cp ~/"Scripts From warp"/clamav-manager.sh ~/.local/bin/clamav-manager.sh</span></p>
+<p class="p10"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1"># Set executable permissions on all scripts</span></p>
+<p class="p7"><span class="s1">chmod +x ~/*.sh ~/.local/bin/*.sh</span></p>
+<p class="p10"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1"># Reload LaunchAgents</span></p>
+<p class="p7"><span class="s1">launchctl unload ~/Library/LaunchAgents/com.user.batterymonitor.plist 2>/dev/null</span></p>
+<p class="p7"><span class="s1">launchctl load ~/Library/LaunchAgents/com.user.batterymonitor.plist</span></p>
+<p class="p7"><span class="s1">launchctl unload ~/Library/LaunchAgents/com.user.systemcheck.plist 2>/dev/null</span></p>
+<p class="p7"><span class="s1">launchctl load ~/Library/LaunchAgents/com.user.systemcheck.plist</span></p>
+<p class="p10"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1"># Verify all scripts are in place</span></p>
+<p class="p7"><span class="s1">ls -la ~/*.sh ~/.local/bin/*.sh</span></p>
+<p class="p7"><span class="s1">launchctl list | grep com.user</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Script Locations Reference</b></span></h3>
+<p class="p8"><span class="s1"><b>Expected locations after reinstate:</b><b></b></span></p>
+<ul class="ul1">
+  <li class="li12"><span class="s4"></span><span class="s13">~/battery_monitor.sh</span><span class="s1"> - Battery alert (used by LaunchAgent)</span></li>
+  <li class="li12"><span class="s4"></span><span class="s13">~/system_check_backup.sh</span><span class="s1"> - System security check (convenience copy)</span></li>
+  <li class="li12"><span class="s4"></span><span class="s13">~/.local/bin/system_check_backup.sh</span><span class="s1"> - System security check (used by LaunchAgent)</span></li>
+  <li class="li12"><span class="s4"></span><span class="s13">~/clamav-manager.sh</span><span class="s1"> - ClamAV scan manager</span></li>
+  <li class="li12"><span class="s4"></span><span class="s13">~/.local/bin/clamav-manager.sh</span><span class="s1"> - ClamAV scan manager (.local copy)</span></li>
+  <li class="li12"><span class="s4"></span><span class="s13">~/.local/bin/clamav-helper.sh</span><span class="s1"> - ClamAV daemon helper</span></li>
+  <li class="li12"><span class="s4"></span><span class="s13">~/bitwarden_backup.sh</span><span class="s1"> - Encrypted vault backup to SD</span></li>
+  <li class="li12"><span class="s4"></span><span class="s13">~/bitwarden-audit.sh</span><span class="s1"> - Vault security audit</span></li>
+  <li class="li12"><span class="s4"></span><span class="s13">~/breach-monitor.sh</span><span class="s1"> - HIBP breach check</span></li>
+  <li class="li12"><span class="s4"></span><span class="s13">~/disable_netbios_permanent.sh</span><span class="s1"> - Permanently disable NetBIOS</span></li>
+  <li class="li12"><span class="s4"></span><span class="s13">~/tm_retention.sh</span><span class="s1"> - Time Machine backup retention manager</span></li>
+  <li class="li12"><span class="s4"></span><span class="s13">~/quick_security_audit.sh</span><span class="s1"> - Focused sudo/YubiKey/LuLu/OverSight/KnockKnock/ClamAV/TM-retention check</span></li>
+  <li class="li12"><span class="s4"></span><span class="s13">/Library/LaunchDaemons/com.jarrodstebbing.tmretention.plist</span><span class="s1"> - Hourly automated TM retention enforcement (root)</span></li>
+</ul>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="additional-scripts" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>Additional Scripts</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Quick Security Audit</b></span></h3>
+<p class="p7"><span class="s1">~/quick_security_audit.sh</span></p>
+<p class="p17"><span class="s1"><i>Focused companion to system_check_backup.sh: sudo/admin access, YubiKey, LuLu (+stealth), OverSight, KnockKnock (installed check - on-demand tool, no persistent process by design), ClamAV (definition freshness), and Time Machine status/40-backup retention cap on the 1TB drive.</i><i></i></span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Bitwarden Security Audit</b></span></h3>
+<p class="p7"><span class="s1">~/bitwarden-audit.sh</span></p>
+<p class="p17"><span class="s1"><i>Checks vault for weak passwords, reused passwords, and missing 2FA</i><i></i></span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Breach Monitor</b></span></h3>
+<p class="p7"><span class="s1">~/breach-monitor.sh</span></p>
+<p class="p7"><span class="s1">~/breach-monitor.sh alternate@email.com</span></p>
+<p class="p17"><span class="s1"><i>Checks if email appears in known data breaches via Have I Been Pwned</i><i></i></span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>ClamAV Helper (Daemon Management)</b></span></h3>
+<p class="p7"><span class="s1">~/.local/bin/clamav-helper.sh status<span class="Apple-converted-space">     </span># Service &amp; database status</span></p>
+<p class="p7"><span class="s1">~/.local/bin/clamav-helper.sh start<span class="Apple-converted-space">      </span># Start ClamAV daemon</span></p>
+<p class="p7"><span class="s1">~/.local/bin/clamav-helper.sh stop<span class="Apple-converted-space">       </span># Stop ClamAV daemon</span></p>
+<p class="p7"><span class="s1">~/.local/bin/clamav-helper.sh scan ~/Downloads<span class="Apple-converted-space"> </span># Scan with daemon</span></p>
+<p class="p7"><span class="s1">~/.local/bin/clamav-helper.sh logs<span class="Apple-converted-space">       </span># View daemon logs</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Time Machine Retention Manager</b></span></h3>
+<p class="p7"><span class="s1">sudo ~/tm_retention.sh<span class="Apple-converted-space">               </span># Dry run (preview only)</span></p>
+<p class="p7"><span class="s1">sudo ~/tm_retention.sh --delete<span class="Apple-converted-space">       </span># Actually delete old backups</span></p>
+<p class="p7"><span class="s1">sudo ~/tm_retention.sh --keep 40<span class="Apple-converted-space">      </span># Keep 40 backups (dry run)</span></p>
+<p class="p7"><span class="s1">sudo ~/tm_retention.sh --keep 40 --delete<span class="Apple-converted-space"> </span># Keep 40, delete the rest</span></p>
+<p class="p17"><span class="s1"><i>Keeps the N most recent Time Machine backups and deletes older ones (default: 30)</i><i></i></span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Automated Hourly Retention (40-backup cap, 1TB drive)</b></span></h3>
+<p class="p7"><span class="s1">sudo cp ~/com.jarrodstebbing.tmretention.plist /Library/LaunchDaemons/</span></p>
+<p class="p7"><span class="s1">sudo chown root:wheel /Library/LaunchDaemons/com.jarrodstebbing.tmretention.plist</span></p>
+<p class="p7"><span class="s1">sudo launchctl bootstrap system /Library/LaunchDaemons/com.jarrodstebbing.tmretention.plist</span></p>
+<p class="p17"><span class="s1"><i>Runs tm_retention.sh --keep 40 --delete every hour as root (no-ops harmlessly if the drive isn't connected). Time Machine itself backs up hourly automatically once enabled - this just keeps the 1TB drive from filling up.</i><i></i></span></p>
+<p class="p7"><span class="s1">sudo launchctl list | grep tmretention<span class="Apple-converted-space">                       </span># Verify loaded</span></p>
+<p class="p7"><span class="s1">cat /var/log/tm_retention_daemon.log</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="performance-optimization" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>Performance & System Optimization</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Reduce Visual Effects (Speed Up UI)</b></span></h3>
+<p class="p7"><span class="s1">defaults write com.apple.universalaccess reduceTransparency -bool true</span></p>
+<p class="p7"><span class="s1">defaults write com.apple.universalaccess reduceMotion -bool true</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Monitor Memory & CPU Usage</b></span></h3>
+<p class="p7"><span class="s1">top -l 1 -n 10 | head -20</span></p>
+<p class="p7"><span class="s1">vm_stat 1 5<span class="Apple-converted-space">        </span># Real-time memory stats</span></p>
+<p class="p7"><span class="s1">ps aux --sort=-%mem | head -15<span class="Apple-converted-space"> </span># Top memory hogs</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Check Disk Space</b></span></h3>
+<p class="p7"><span class="s1">df -h<span class="Apple-converted-space">            </span># Disk usage overview</span></p>
+<p class="p7"><span class="s1">du -sh ~/*<span class="Apple-converted-space">         </span># Largest directories in home</span></p>
+<p class="p7"><span class="s1">ncdu ~<span class="Apple-converted-space">            </span># Interactive disk usage (install: brew install ncdu)</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Disable Spotlight Indexing</b></span></h3>
+<p class="p7"><span class="s1">sudo mdutil -i off /</span></p>
+<p class="p7"><span class="s1">sudo mdutil -i on /<span class="Apple-converted-space">       </span># Re-enable</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Purge RAM Cache</b></span></h3>
+<p class="p7"><span class="s1">sudo purge</span></p>
+<p class="p17"><span class="s1"><i>Clears inactive memory (safe operation)</i><i></i></span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="development-debugging" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>Development & Debugging</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Show Hidden Files in Finder</b></span></h3>
+<p class="p7"><span class="s1">defaults write com.apple.Finder AppleShowAllFiles true</span></p>
+<p class="p7"><span class="s1">killall Finder</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Enable Developer Mode (Gatekeeper)</b></span></h3>
+<p class="p7"><span class="s1">sudo spctl developer-mode enable-console</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Xcode Command Line Tools</b></span></h3>
+<p class="p7"><span class="s1">xcode-select --install<span class="Apple-converted-space">       </span># Install</span></p>
+<p class="p7"><span class="s1">xcode-select --print-path<span class="Apple-converted-space">  </span># Check installation</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Format JSON</b></span></h3>
+<p class="p7"><span class="s1">cat file.json | jq .</span></p>
+<p class="p7"><span class="s1">jq . file.json &gt; formatted.json</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Check Command Location</b></span></h3>
+<p class="p7"><span class="s1">which python3</span></p>
+<p class="p7"><span class="s1">type -a python3<span class="Apple-converted-space">     </span># All occurrences</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="keyboard-input" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>Keyboard & Input Tweaks</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Warp Global Hotkey (Show/Hide Terminal)</b></span></h3>
+<p class="p8"><span class="s1"><b>Configured Shortcut:</b> Option + Space (alt-space)</span></p>
+<p class="p7"><span class="s1"># View active hotkey settings in ~/.warp/settings.toml</span></p>
+<p class="p7"><span class="s1">tail -n 10 ~/.warp/settings.toml</span></p>
+<p class="p8"><span class="s1"><b>Troubleshooting / Permissions:</b></span></p>
+<p class="p7"><span class="s1"># 1. Ensure Accessibility permissions are granted:</span></p>
+<p class="p7"><span class="s1">open "x-apple.systempreferences:com.apple.preference.security?Privacy_Accessibility"</span></p>
+<p class="p7"><span class="s1"># 2. Check if another app or system shortcut intercepts Option+Space (Keyboard Shortcuts > Input Sources / Spotlight)</span></p>
+<p class="p7"><span class="s1"># 3. Restart Warp if shortcut is unresponsive: killall Warp && open -a Warp</span></p>
+<p class="p17"><span class="s1"><i>Configured under [global_hotkey.toggle_all_windows] in ~/.warp/settings.toml.</i></span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Speed Up Key Repeat</b></span></h3>
+<p class="p7"><span class="s1">defaults write NSGlobalDomain KeyRepeat -int 2</span></p>
+<p class="p7"><span class="s1">defaults write NSGlobalDomain InitialKeyRepeat -int 15</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Disable Auto-Correct</b></span></h3>
+<p class="p7"><span class="s1">defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Disable Caps Lock</b></span></h3>
+<p class="p7"><span class="s1">hidutil property --set '{"HIDCapsLockState": 0}'</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="maintenance-helpers" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>Maintenance Helpers</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Verify System Integrity</b></span></h3>
+<p class="p7"><span class="s1">diskutil verifyVolume /</span></p>
+<p class="p7"><span class="s1">diskutil verifydisk /dev/disk0<span class="Apple-converted-space">  </span># Full verification</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Repair Disk Permissions</b></span></h3>
+<p class="p7"><span class="s1">diskutil secureErase freespace 0 /dev/disk1s1</span></p>
+<p class="p17"><span class="s1"><i>Securely erases free space on external drives</i><i></i></span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Check Hard Drive Health (SMART)</b></span></h3>
+<p class="p7"><span class="s1">diskutil info /dev/disk0 | grep SMART</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Empty Trash Securely</b></span></h3>
+<p class="p7"><span class="s1">rm -P ~/.Trash/*<span class="Apple-converted-space">  </span># Secure deletion</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Reset Mac to Fresh State</b></span></h3>
+<p class="p7"><span class="s1">sudo softwareupdate --install-rosetta --agree-to-license</span></p>
+<p class="p17"><span class="s1"><i>Install Apple Silicon Rosetta translator</i><i></i></span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="privacy-tracking" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>Privacy & Tracking</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Disable Siri Analytics</b></span></h3>
+<p class="p7"><span class="s1">defaults write com.apple.assistant.support 'Siri Data Store Opt-In Status' -int 2</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Disable Crash Reporter</b></span></h3>
+<p class="p7"><span class="s1">defaults write com.apple.CrashReporter DialogType none</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Disable iCloud Keychain Sync</b></span></h3>
+<p class="p7"><span class="s1">defaults write com.apple.iCloud.Keychain CloudKeychainSyncEnabled -bool false</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Disable Privacy-Invasive Services</b></span></h3>
+<p class="p7"><span class="s1">defaults write /Library/Application\ Support/CrashReporter/DiagnosticMessagesHistory.plist AutoSubmit -bool false</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="useful-aliases" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>Useful Aliases</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Add to ~/.zshrc</b></span></h3>
+<p class="p7"><span class="s1">alias ll='ls -lh'</span></p>
+<p class="p7"><span class="s1">alias la='ls -lah'</span></p>
+<p class="p7"><span class="s1">alias mkcd='mkdir -p &amp;&amp; cd'</span></p>
+<p class="p7"><span class="s1">alias rm='rm -i'<span class="Apple-converted-space">        </span># Confirm before deleting</span></p>
+<p class="p7"><span class="s1">alias ip='curl icanhazip.com'</span></p>
+<p class="p7"><span class="s1">alias localip="ifconfig | grep 'inet ' | grep -v 127.0.0.1"</span></p>
+<p class="p7"><span class="s1">alias ports='lsof -i -P -n | grep LISTEN'</span></p>
+<p class="p7"><span class="s1">alias update='brew update &amp;&amp; brew upgrade'</span></p>
+<p class="p17"><span class="s1"><i>Reload shell after adding: source ~/.zshrc</i><i></i></span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="quick-tips" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>Quick Tips &amp; Tricks</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Screenshot to Clipboard</b></span></h3>
+<p class="p7"><span class="s1">screencapture -c<span class="Apple-converted-space">          </span># Full screen</span></p>
+<p class="p7"><span class="s1">screencapture -i -c<span class="Apple-converted-space">       </span># Interactive selection</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Find Large Files</b></span></h3>
+<p class="p7"><span class="s1">find ~ -type f -size +100M<span class="Apple-converted-space"> </span># Files over 100MB</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Open File with Default App</b></span></h3>
+<p class="p7"><span class="s1">open file.pdf</span></p>
+<p class="p7"><span class="s1">open -a "Safari" file.html</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Create Large Dummy File</b></span></h3>
+<p class="p7"><span class="s1">dd if=/dev/zero of=largefile.bin bs=1m count=1024<span class="Apple-converted-space"> </span># 1GB file</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Show Process Tree</b></span></h3>
+<p class="p7"><span class="s1">pstree<span class="Apple-converted-space">             </span># If installed (brew install pstree)</span></p>
+<p class="p7"><span class="s1">ps -ef --forest<span class="Apple-converted-space">         </span># Alternative</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Monitor Folder Changes</b></span></h3>
+<p class="p7"><span class="s1">fswatch -r ~/folder<span class="Apple-converted-space">       </span># Requires fswatch (brew install fswatch)</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Batch Rename Files</b></span></h3>
+<p class="p7"><span class="s1">for f in *.jpg; do mv "$f" "${f//old/new}"; done</span></p>
+<p class="p7"><span class="s1">brew install rename && rename 's/old/new/' *</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="notes" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>Notes</b></span></h2>
+<ul class="ul1">
+  <li class="li15"><span class="s4"><b></b></span><span class="s1"><b>WiFi Country:</b></span><span class="s10"> AU</span></li>
+  <li class="li15"><span class="s4"><b></b></span><span class="s1"><b>Locale:</b></span><span class="s10"> en_AU</span></li>
+  <li class="li12"><span class="s18"><b></b></span><span class="s5"><b>Email for reports:</b></span><span class="s1"> jaytiltins@icloud.com</span></li>
+  <li class="li15"><span class="s4"><b></b></span><span class="s1"><b>Password Manager:</b></span><span class="s10"> Bitwarden</span></li>
+  <li class="li12"><span class="s18"><b></b></span><span class="s5"><b>Security Key:</b></span><span class="s1"> YubiKey OTP+FIDO+CCID</span></li>
+  <li class="li12"><span class="s18"><b></b></span><span class="s5"><b>Global Packages:</b></span><span class="s1"> homebridge-config-ui-x (npm)</span></li>
+</ul>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="file-management" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>File Management</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Remove Ice Directory</b></span></h3>
+<p class="p7"><span class="s1">sudo rm -rf /Users/jarrodstebbing/Ice</span></p>
+<p class="p17"><span class="s1"><i>Caution: This permanently deletes the Ice directory and all contents</i><i></i></span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Reduce PDF File Size (Ghostscript)</b></span></h3>
+<p class="p8"><span class="s1"><b>Balanced quality (~150 DPI):</b><b></b></span></p>
+<p class="p7"><span class="s1">gs -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 \</span></p>
+<p class="p7"><span class="s1"><span class="Apple-converted-space">&nbsp;&nbsp;</span>-dPDFSETTINGS=/ebook -sOutputFile=output.pdf input.pdf</span></p>
+<p class="p8"><span class="s1"><b>Smallest size (~72 DPI):</b><b></b></span></p>
+<p class="p7"><span class="s1">gs -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 \</span></p>
+<p class="p7"><span class="s1"><span class="Apple-converted-space">&nbsp;&nbsp;</span>-dPDFSETTINGS=/screen -sOutputFile=output.pdf input.pdf</span></p>
+<p class="p17"><span class="s1"><i>Settings (smallest to largest): /screen → /ebook → /printer → /prepress</i><i></i></span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Compress PDF to Target Size (Script)</b></span></h3>
+<p class="p8"><span class="s1"><b>Run script (default target: 5MB):</b><b></b></span></p>
+<p class="p7"><span class="s1">~/compress_pdf.sh &lt;input.pdf&gt; [target_MB]</span></p>
+<p class="p8"><span class="s1"><b>Example:</b><b></b></span></p>
+<p class="p7"><span class="s1">~/compress_pdf.sh ~/Desktop/document.pdf 5</span></p>
+<p class="p17"><span class="s1"><i>Runs qpdf (text/font streams) then Ghostscript (images) for maximum compression. Output saved as *_compressed.pdf next to the original.</i><i></i></span></p>
+<p class="p8"><span class="s1"><b>Install required tools (one-time):</b><b></b></span></p>
+<p class="p7"><span class="s1">brew install ghostscript qpdf</span></p>
+<p class="p9"><span class="s1"></span><br></p>
+<h2 id="knockknock-persistence" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>KnockKnock &amp; Persistence Review</b></span></h2>
+<p class="p17"><span class="s1"><i>Use these after running Objective-See KnockKnock to decide what to keep, quarantine, or remove.</i></span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Open KnockKnock &amp; Check Preferences</b></span></h3>
+<p class="p7"><span class="s1">open /Applications/KnockKnock.app</span></p>
+<p class="p7"><span class="s1">defaults read com.objective-see.KnockKnock</span></p>
+<p class="p7"><span class="s1">plutil -p ~/Library/Preferences/com.objective-see.KnockKnock.plist</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Inventory Persistence Locations</b></span></h3>
+<p class="p7"><span class="s1">find /Library/LaunchAgents /Library/LaunchDaemons ~/Library/LaunchAgents -maxdepth 1 -type f -name '*.plist' -print</span></p>
+<p class="p7"><span class="s1">find /Library/Extensions -maxdepth 1 -type d -name '*.kext' -print</span></p>
+<p class="p7"><span class="s1">systemextensionsctl list</span></p>
+<p class="p7"><span class="s1">kmutil showloaded</span></p>
+<p class="p7"><span class="s1">crontab -l</span></p>
+<p class="p7"><span class="s1">sfltool dumpbtm</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Inspect LaunchAgent or LaunchDaemon Details</b></span></h3>
+<p class="p7"><span class="s1">plutil -p /path/to/item.plist</span></p>
+<p class="p7"><span class="s1">codesign -dv --verbose=4 /path/to/executable</span></p>
+<p class="p7"><span class="s1">test -e /path/from/plist &amp;&amp; echo "target exists" || echo "stale target"</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Check Browser Extensions</b></span></h3>
+<p class="p7"><span class="s1">find ~/Library/Application\ Support/BraveSoftware/Brave-Browser -maxdepth 5 -path '*Extensions*' -print</span></p>
+<p class="p7"><span class="s1">find ~/Library/Application\ Support/Firefox/Profiles -maxdepth 4 -path '*extensions*' -print</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Quarantine Before Removing</b></span></h3>
+<p class="p7"><span class="s1">mkdir -p ~/Documents/removed-persistence/YYYYMMDD</span></p>
+<p class="p7"><span class="s1">sudo cp -p /Library/LaunchDaemons/example.plist ~/Documents/removed-persistence/YYYYMMDD/</span></p>
+<p class="p7"><span class="s1">sudo rm -f /Library/LaunchDaemons/example.plist</span></p>
+<p class="p7"><span class="s1">sudo cp -Rp /Library/Extensions/Example.kext ~/Documents/removed-persistence/YYYYMMDD/</span></p>
+<p class="p7"><span class="s1">sudo rm -rf /Library/Extensions/Example.kext</span></p>
+<p class="p17"><span class="s1"><i>Only remove items that are clearly stale, malicious, or tied to software/hardware you no longer use.</i></span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Verify After Cleanup</b></span></h3>
+<p class="p7"><span class="s1">find /Library/LaunchAgents /Library/LaunchDaemons ~/Library/LaunchAgents -maxdepth 1 -type f -name '*.plist' -print</span></p>
+<p class="p7"><span class="s1">find /Library/Extensions -maxdepth 1 -type d -name '*.kext' -print</span></p>
+<p class="p7"><span class="s1">sfltool dumpbtm | grep -A12 -B2 -i "Name or App"</span></p>
+<p class="p17"><span class="s1"><i>2026-05-18 review: stale OneDrive launch items and old HighPoint RAID kexts were quarantined; ClamAV, Objective-See tools, Proton VPN, AdGuard, GPG Suite, Microsoft Office helpers, Time Machine, NetBIOS hardening, system check, and battery monitor items were kept.</i></span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="security-status-checks" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>Security Status Checks</b></span></h2>
+<p class="p17"><span class="s1"><i>Manual verification commands mirroring each check in ~/system_check_backup.sh</i></span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>FileVault (Disk Encryption)</b></span></h3>
+<p class="p7"><span class="s1">fdesetup status</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>System Integrity Protection (SIP)</b></span></h3>
+<p class="p7"><span class="s1">csrutil status</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Gatekeeper</b></span></h3>
+<p class="p7"><span class="s1">spctl --status</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>YubiKey Detection</b></span></h3>
+<p class="p7"><span class="s1">ioreg -p IOUSB -l -w 0 | grep "YubiKey"</span></p>
+<p class="p7"><span class="s1">ioreg -p IOUSB -l -w 0 | grep -c "YubiKey OTP+FIDO+CCID@"    # Count connected keys</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>LuLu Firewall Status</b></span></h3>
+<p class="p7"><span class="s1">pgrep -i lulu &amp;&amp; echo "LuLu: RUNNING" || echo "LuLu: NOT RUNNING"</span></p>
+<p class="p7"><span class="s1">defaults read com.objective-see.lulu stealthMode   # 1 = Stealth Mode ON</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Objective-See Monitors (OverSight, RansomWhere?, BlockBlock)</b></span></h3>
+<p class="p7"><span class="s1">pgrep -i oversight    # Camera/mic monitor</span></p>
+<p class="p7"><span class="s1">pgrep -i ransomwhere  # Ransomware monitor</span></p>
+<p class="p7"><span class="s1">pgrep -i blockblock   # Persistence monitor</span></p>
+<p class="p7"><span class="s1">launchctl list | grep -iE "oversight|ransomwhere|blockblock"</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>pinentry-mac Configuration</b></span></h3>
+<p class="p7"><span class="s1">ls /opt/homebrew/bin/pinentry-mac                    # Check installed</span></p>
+<p class="p7"><span class="s1">grep pinentry-mac ~/.gnupg/gpg-agent.conf            # Check configured in gpg-agent</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>iPhone Connectivity (Bluetooth)</b></span></h3>
+<p class="p7"><span class="s1">system_profiler SPBluetoothDataType | grep -i "iPhone"</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>HomePod Discovery (AirPlay)</b></span></h3>
+<p class="p7"><span class="s1">dns-sd -B _airplay._tcp local.   # Press Ctrl+C to stop after a few seconds</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<p class="p9"><span class="s1"></span><br></p>
+<h2 id="brew-security-tools" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>Brew Security Tools</b></span></h2>
+<p class="p17"><span class="s1"><i>Install, verify, and use all security tools checked by ~/system_check_backup.sh</i></span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Install All Security Tools</b></span></h3>
+<p class="p7"><span class="s1">brew install gnupg pinentry-mac age gitleaks trufflehog nmap wireguard-tools lynis trivy mkcert step oath-toolkit clamav unbound</span></p>
+<p class="p7"><span class="s1">brew install --cask lulu knockknock blockblock oversight ransomwhere</span></p>
+<p class="p17"><span class="s1"><i>LuLu requires manual approval of its system extension in System Settings &gt; Privacy &amp; Security after install.</i><i></i></span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Check All Installed Versions</b></span></h3>
+<p class="p7"><span class="s1">gpg --version | head -1           # GPG</span></p>
+<p class="p7"><span class="s1">age --version                     # age (file encryption)</span></p>
+<p class="p7"><span class="s1">gitleaks version                  # gitleaks</span></p>
+<p class="p7"><span class="s1">trufflehog --version              # trufflehog</span></p>
+<p class="p7"><span class="s1">nmap --version | head -1          # nmap</span></p>
+<p class="p7"><span class="s1">wg --version                      # WireGuard tools</span></p>
+<p class="p7"><span class="s1">lynis --version                   # lynis</span></p>
+<p class="p7"><span class="s1">trivy --version                   # trivy</span></p>
+<p class="p7"><span class="s1">mkcert --version                  # mkcert</span></p>
+<p class="p7"><span class="s1">step --version                    # step (certificate tool)</span></p>
+<p class="p7"><span class="s1">oathtool --version                # oath-toolkit (TOTP/HOTP)</span></p>
+<p class="p7"><span class="s1">clamscan --version                # ClamAV</span></p>
+<p class="p7"><span class="s1">unbound -V | head -1              # unbound (DNS resolver)</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Trivy Secret Scan (per directory)</b></span></h3>
+<p class="p7"><span class="s1">trivy fs --scanners secret ~/.ssh</span></p>
+<p class="p7"><span class="s1">trivy fs --scanners secret ~/.gnupg</span></p>
+<p class="p7"><span class="s1">trivy fs --scanners secret ~/.config</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Lynis System Audit</b></span></h3>
+<p class="p7"><span class="s1">sudo lynis audit system            # Full security audit</span></p>
+<p class="p7"><span class="s1">sudo lynis audit system --quick    # Faster, less interactive</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Gitleaks (Secret Scanner)</b></span></h3>
+<p class="p7"><span class="s1">cd /path/to/repo &amp;&amp; gitleaks detect   # Scan a git repo</span></p>
+<p class="p7"><span class="s1">gitleaks detect --source ~/            # Scan home directory</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>TruffleHog (Credential Scanner)</b></span></h3>
+<p class="p7"><span class="s1">trufflehog filesystem ~/              # Scan home directory for secrets</span></p>
+<p class="p7"><span class="s1">trufflehog git file://.               # Scan current git repo</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<p class="p9"><span class="s1"></span><br></p>
+<h2 id="cryptocurrency" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>Cryptocurrency</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Open Monero Wallet</b></span></h3>
+<p class="p7"><span class="s1">monero-wallet-cli --wallet-file ~/Monero/wallets/jarrodstebbing/jarrodstebbing --daemon-address nodes.hashvault.pro:18081</span></p>
+<p class="p17"><span class="s1"><i>Connects to HashVault remote node for wallet synchronization</i><i></i></span></p>
+<p class="p17"><span class="s1"><i>Note: Close Monero GUI wallet before using CLI - only one can access the wallet at a time</i><i></i></span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Speed Up Local Daemon Sync</b></span></h3>
+<p class="p7"><span class="s1">monerod --db-sync-mode=fast --block-sync-size=100</span></p>
+<p class="p17"><span class="s1"><i>Faster blockchain synchronization for local daemon</i><i></i></span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Reduce Daemon Log Level</b></span></h3>
+<p class="p7"><span class="s1">monerod --log-level=0</span></p>
+<p class="p17"><span class="s1"><i>Minimal logging (0) reduces overhead and speeds up sync</i><i></i></span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="icloud-photos" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>iCloud Photos Sync</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Enable iCloud Photos (Photos app)</b></span></h3>
+<p class="p7"><span class="s1"># Open Photos and go to:</span></p>
+<p class="p7"><span class="s1"># Photos → Settings → iCloud tab → check "iCloud Photos"</span></p>
+<p class="p7"><span class="s1">open -a Photos</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Open iCloud Settings Directly</b></span></h3>
+<p class="p7"><span class="s1">open "x-apple.systempreferences:com.apple.preferences.AppleIDPrefPane?iCloud"</span></p>
+<p class="p7"><span class="s1"># Or: System Settings → Apple ID → iCloud → Photos → enable iCloud Photos</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Verify iCloud Photos Status</b></span></h3>
+<p class="p7"><span class="s1"># Check if PHOTO_STREAM / Cloud Photos dataclass is present</span></p>
+<p class="p7"><span class="s1">/usr/libexec/PlistBuddy -c "Print :Accounts:0:Services" ~/Library/Preferences/MobileMeAccounts.plist | grep -i photo</span></p>
+<p class="p7"><span class="s1"># View cloud photo processes</span></p>
+<p class="p7"><span class="s1">ps aux | grep -E 'cloudphotod|photolibraryd' | grep -v grep</span></p>
+<p class="p7"><span class="s1"># Find your Photos library</span></p>
+<p class="p7"><span class="s1">find ~ -maxdepth 3 -name "*.photoslibrary" -type d 2>/dev/null</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="highpoint-cleanup" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>Remove Unused HighPoint RAID Kexts</b></span></h2>
+<p class="p17"><span class="s1"><i>Only if you don't have HighPoint RAID hardware. These were installed but not loaded and no matching storage was detected.</i></span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Inspect</b></span></h3>
+<p class="p7"><span class="s1">ls -la /Library/Extensions/HighPoint*.kext</span></p>
+<p class="p7"><span class="s1">kextstat | grep -i highpoint || echo "not loaded"</span></p>
+<p class="p7"><span class="s1">system_profiler SPStorageDataType | grep -i highpoint || echo "no HighPoint storage"</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Remove (requires sudo)</b></span></h3>
+<p class="p7"><span class="s1">sudo rm -rf /Library/Extensions/HighPointIOP.kext /Library/Extensions/HighPointRR.kext</span></p>
+<p class="p7"><span class="s1">sudo touch /Library/Extensions</span></p>
+<p class="p7"><span class="s1">sudo kmutil install --volume-root / --update-all</span></p>
+<p class="p7"><span class="s1"># Reboot recommended after removing kexts</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="codesign-scripts" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>Ad-hoc Sign Custom Scripts (Remove Unsigned Flags)</b></span></h2>
+<p class="p17"><span class="s1"><i>Fixes KnockKnock flagging your own scripts. Ad-hoc signing (no identity) is sufficient for local use.</i></span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Clean Resource Forks / Finder Info First</b></span></h3>
+<p class="p7"><span class="s1">xattr -cr ~/battery_monitor.sh</span></p>
+<p class="p7"><span class="s1">xattr -cr ~/.local/bin/system_check_backup.sh</span></p>
+<p class="p7"><span class="s1">xattr -cr ~/.local/bin/daily_auto_check</span></p>
+<p class="p7"><span class="s1">xattr -cr ~/lulu-postboot-check.sh</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Sign Scripts</b></span></h3>
+<p class="p7"><span class="s1">codesign --force --sign - ~/battery_monitor.sh</span></p>
+<p class="p7"><span class="s1">codesign --force --sign - ~/.local/bin/system_check_backup.sh</span></p>
+<p class="p7"><span class="s1">codesign --force --sign - ~/.local/bin/daily_auto_check</span></p>
+<p class="p7"><span class="s1">codesign --force --sign - ~/lulu-postboot-check.sh</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Verify Signatures</b></span></h3>
+<p class="p7"><span class="s1">codesign -vvv ~/battery_monitor.sh ~/.local/bin/system_check_backup.sh ~/.local/bin/daily_auto_check ~/lulu-postboot-check.sh</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 id="launchagent-audit" style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #28384b; -webkit-text-stroke: #28384b"><span class="s1"><b>Custom LaunchAgents Audit (Your Scripts)</b></span></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>List Your Custom Agents</b></span></h3>
+<p class="p7"><span class="s1">ls -la ~/Library/LaunchAgents/com.user.*</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Inspect Specific Plists</b></span></h3>
+<p class="p7"><span class="s1">plutil -p ~/Library/LaunchAgents/com.user.batterymonitor.plist</span></p>
+<p class="p7"><span class="s1">plutil -p ~/Library/LaunchAgents/com.user.systemcheck.plist</span></p>
+<p class="p7"><span class="s1">plutil -p ~/Library/LaunchAgents/com.user.lulu-postboot-check.plist</span></p>
+<p class="p7"><span class="s1">plutil -p ~/Library/LaunchAgents/com.syscheck.daily.plist</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Referenced Scripts (Current)</b></span></h3>
+<p class="p7"><span class="s1">ls -l ~/battery_monitor.sh ~/.local/bin/system_check_backup.sh ~/.local/bin/daily_auto_check ~/lulu-postboot-check.sh</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343"><span class="s1"><b>Unload a Custom Agent (if removing)</b></span></h3>
+<p class="p7"><span class="s1">launchctl bootout gui/$(id -u)/com.user.batterymonitor 2>/dev/null || true</span></p>
+<p class="p7"><span class="s1">launchctl bootout gui/$(id -u)/com.user.systemcheck 2>/dev/null || true</span></p>
+<p class="p7"><span class="s1">launchctl bootout gui/$(id -u)/com.user.lulu-postboot-check 2>/dev/null || true</span></p>
+<p class="p7"><span class="s1">launchctl bootout gui/$(id -u)/com.syscheck.daily 2>/dev/null || true</span></p>
+<p class="p17"><span class="s1"><i>After unloading, you can safely rm the plist if you no longer need it.</i></span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<p class="p17"><span class="s1"><i>Last updated: September 3, 2026 (added AdGuard DNS optimization, acceptable ads &amp; telemetry disabling, Safari Technology Preview GPU WebKit feature flags, and benchmark verification commands)</i><i></i></span></p>
+<p class="p24"><span class="s19"><b>To Print:</b></span><span class="s20"> Open this file in Safari, press </span><span class="s21">⌘</span><span class="s13">P</span><span class="s20">, and select your printer or "Save as PDF"</span></p>
+</body>
+</html>
